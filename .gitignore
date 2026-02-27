@@ -1,0 +1,12 @@
+output/*
+!output/.gitkeep
+!output/cogs.db
+!output/cost_report.md
+!output/cost_report_prompt.txt
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.claude/
+docs/
+thoughts/
