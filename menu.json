@@ -4,9 +4,9 @@
   "menu_items": [
     {
       "id": "espresso",
-      "name": "Espresso",
+      "name": "Single Espresso",
       "category": "hot_drinks",
-      "sell_price": 2.50,
+      "sell_price": 2.80,
       "recipe": {
         "ingredients": [
           {"item": "coffee_beans", "quantity": 18, "unit": "g"},
@@ -17,9 +17,9 @@
     },
     {
       "id": "cappuccino",
-      "name": "Cappuccino",
+      "name": "Classic Flat White",
       "category": "hot_drinks",
-      "sell_price": 3.80,
+      "sell_price": 4.20,
       "recipe": {
         "ingredients": [
           {"item": "coffee_beans", "quantity": 18, "unit": "g"},
@@ -31,9 +31,9 @@
     },
     {
       "id": "oat_milk_latte",
-      "name": "Oat Milk Latte",
+      "name": "Oat Latte",
       "category": "hot_drinks",
-      "sell_price": 4.20,
+      "sell_price": 4.60,
       "recipe": {
         "ingredients": [
           {"item": "coffee_beans", "quantity": 18, "unit": "g"},
@@ -45,9 +45,9 @@
     },
     {
       "id": "hot_chocolate",
-      "name": "Hot Chocolate",
+      "name": "Belgian Cocoa",
       "category": "hot_drinks",
-      "sell_price": 4.00,
+      "sell_price": 4.30,
       "recipe": {
         "ingredients": [
           {"item": "cocoa_powder", "quantity": 30, "unit": "g"},
@@ -60,9 +60,9 @@
     },
     {
       "id": "iced_americano",
-      "name": "Iced Americano",
+      "name": "Cold Brew",
       "category": "cold_drinks",
-      "sell_price": 3.50,
+      "sell_price": 3.90,
       "recipe": {
         "ingredients": [
           {"item": "coffee_beans", "quantity": 18, "unit": "g"},
@@ -74,9 +74,9 @@
     },
     {
       "id": "fresh_lemonade",
-      "name": "Fresh Lemonade",
+      "name": "Citrus Spritz",
       "category": "cold_drinks",
-      "sell_price": 3.80,
+      "sell_price": 4.10,
       "recipe": {
         "ingredients": [
           {"item": "lemon", "quantity": 2, "unit": "each"},
@@ -90,9 +90,9 @@
     },
     {
       "id": "berry_smoothie",
-      "name": "Berry Smoothie",
+      "name": "Mixed Fruit Shake",
       "category": "cold_drinks",
-      "sell_price": 5.00,
+      "sell_price": 5.40,
       "recipe": {
         "ingredients": [
           {"item": "mixed_berries", "quantity": 100, "unit": "g"},
@@ -106,9 +106,9 @@
     },
     {
       "id": "butter_croissant",
-      "name": "Butter Croissant",
+      "name": "Plain Croissant",
       "category": "food",
-      "sell_price": 2.80,
+      "sell_price": 3.10,
       "recipe": {
         "ingredients": [
           {"item": "croissant", "quantity": 1, "unit": "each"},
@@ -119,9 +119,9 @@
     },
     {
       "id": "avocado_toast",
-      "name": "Avocado Toast",
+      "name": "Smashed Avo on Sourdough",
       "category": "food",
-      "sell_price": 6.50,
+      "sell_price": 7.00,
       "recipe": {
         "ingredients": [
           {"item": "bread_loaf", "quantity": 1, "unit": "slice"},
@@ -134,9 +134,9 @@
     },
     {
       "id": "blueberry_muffin",
-      "name": "Blueberry Muffin",
+      "name": "Berry Muffin",
       "category": "food",
-      "sell_price": 3.20,
+      "sell_price": 3.50,
       "recipe": {
         "ingredients": [
           {"item": "muffin", "quantity": 1, "unit": "each"},
@@ -147,18 +147,18 @@
     },
     {
       "id": "morning_deal",
-      "name": "Morning Deal",
+      "name": "Sunrise Combo",
       "category": "combos",
-      "sell_price": 5.50,
+      "sell_price": 6.00,
       "recipe": {
         "components": ["cappuccino", "butter_croissant"]
       }
     },
     {
       "id": "power_lunch",
-      "name": "Power Lunch",
+      "name": "Midday Special",
       "category": "combos",
-      "sell_price": 9.00,
+      "sell_price": 9.80,
       "recipe": {
         "components": ["oat_milk_latte", "avocado_toast"]
       }
